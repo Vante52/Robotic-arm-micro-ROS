@@ -1,0 +1,11 @@
+<library path="robot_arm_base">
+
+    <class name="robot_arm_base/RobotArmInterface"
+           type="robot_arm_base::RobotArmInterface"
+           base_class_type="hardware_interface::SystemInterface">
+        <description>
+            Hardware interface implementation for the diffbot robot.
+        </description>
+    </class>
+
+</library>
